@@ -104,9 +104,8 @@ const Widget = () => {
               />
             </div>
             <div className="text-block">
-              <span className="how">How does it Work?</span>
+              <span className="how">{item.title}</span>
               <span className="step">{item.num}</span>
-              <h3>{item.title}</h3>
               <p>{item.desc}</p>
             </div>
           </div>
