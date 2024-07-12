@@ -29,7 +29,7 @@
   }
 }
 .custom-next {
-  right: 0px; /* Adjust right position as needed */
+  right: 20px; /* Adjust right position as needed */
 }
 
 .carousel-content {
@@ -78,7 +78,7 @@
   width: 80vw !important;
   min-height: 500px;
   align-items: center;
-  background: linear-gradient(290deg, #404c56, #404c56);
+  background: linear-gradient(290deg, #14a3a3, #14a3a3);
 }
 @media screen and (max-width: 768px) {
   .slide .img {
@@ -87,20 +87,20 @@
 }
 .carousel-image {
   flex: 0 0 auto;
-  width: 40%;
+  width: 30%;
 }
 @media (min-width: 768px) {
   .carousel-image {
     flex: 0 0 auto;
     margin-right: 10%; /* Space between image and content */
-    width: 35%;
+    width: 40%;
     height: 80% !important;
     margin-left: 50px;
   }
 }
 .slide .img {
   display: contents;
-  width: 40%;
+  width: 30%;
   text-align: right;
 }
 @media screen and (max-width: 768px) {
@@ -143,12 +143,14 @@
 }
 .how {
   border-bottom: 1px solid #fff;
+  color: #fff;
+  font-size: 25px;
 }
 
 @media screen and (max-width: 768px) {
   .text-block .step {
     margin-bottom: 10px;
-    font-size: 60px;
+    font-size: 70px;
     line-height: 1.5;
     justify-content: center;
   }
@@ -159,6 +161,7 @@
   font-weight: 200;
   line-height: 1.4;
   margin: 0 0 10px -5px;
+  color: #ffd000;
 }
 @media screen and (max-width: 1260px) {
   .text-block h3 {
@@ -178,8 +181,9 @@
     font-size: 14px;
   }
 }
+
 .text-block p {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.633;
   color: #ebebeb;
 }
